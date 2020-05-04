@@ -46,7 +46,7 @@ require (
 	k8s.io/client-go v11.0.0+incompatible
 	k8s.io/helm v2.16.1+incompatible
 	k8s.io/utils v0.0.0-20200108110541-e2fb8e668047 // indirect
-	sigs.k8s.io/controller-runtime v0.4.0
+	sigs.k8s.io/controller-runtime v0.6.0
 )
 
 replace (
