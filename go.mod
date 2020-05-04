@@ -40,7 +40,7 @@ require (
 	gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
 	gopkg.in/yaml.v2 v2.2.7 // indirect
 	helm.sh/helm/v3 v3.0.2
-	k8s.io/api v0.17.0
+	k8s.io/api v0.18.2
 	k8s.io/apiextensions-apiserver v0.17.0 // indirect
 	k8s.io/apimachinery v0.17.0
 	k8s.io/client-go v11.0.0+incompatible
