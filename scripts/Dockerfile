@@ -30,7 +30,7 @@ RUN make build go_ldflags="$GO_LDFLAGS" \
   && make build-staging-ctrl go_ldflags="$GO_LDFLAGS"
 
 # final stage
-FROM alpine:3.9
+FROM alpine:3.11.6
 
 ARG WORKDIR
 ARG USERNAME
