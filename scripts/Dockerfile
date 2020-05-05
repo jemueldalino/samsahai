@@ -1,7 +1,7 @@
 ARG WORKDIR="/go/src/github.com/agoda-com/samsahai"
 ARG USERNAME="samsahai"
 
-FROM golang:1.12-alpine as builder
+FROM golang:1.14.2-alpine as builder
 
 ARG WORKDIR
 ARG GO_LDFLAGS
@@ -30,7 +30,7 @@ RUN make build go_ldflags="$GO_LDFLAGS" \
   && make build-staging-ctrl go_ldflags="$GO_LDFLAGS"
 
 # final stage
-FROM alpine:3.9
+FROM alpine:3.11.6
 
 ARG WORKDIR
 ARG USERNAME
