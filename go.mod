@@ -20,10 +20,10 @@ require (
 	github.com/lusis/slack-test v0.0.0-20180109053238-3c758769bfa6 // indirect
 	github.com/nlopes/slack v0.6.0
 	github.com/onsi/ginkgo v1.10.1
-	github.com/prometheus/client_golang v1.6.0
-	github.com/pkg/errors v0.9.1
 	github.com/onsi/gomega v1.9.0
-	github.com/spf13/cobra v0.0.5
+	github.com/pkg/errors v0.9.1
+	github.com/prometheus/client_golang v1.6.0
+	github.com/spf13/cobra v0.0.7
 	github.com/spf13/viper v1.3.2
 	github.com/swaggo/http-swagger v0.0.0-20190614090009-c2865af9083e
 	github.com/swaggo/swag v1.6.3
