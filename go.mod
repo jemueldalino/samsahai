@@ -42,7 +42,7 @@ require (
 	helm.sh/helm/v3 v3.0.2
 	k8s.io/api v0.17.0
 	k8s.io/apiextensions-apiserver v0.17.0 // indirect
-	k8s.io/apimachinery v0.17.0
+	k8s.io/apimachinery v0.18.2
 	k8s.io/client-go v11.0.0+incompatible
 	k8s.io/helm v2.16.1+incompatible
 	k8s.io/utils v0.0.0-20200108110541-e2fb8e668047 // indirect
