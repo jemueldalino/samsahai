@@ -20,9 +20,9 @@ require (
 	github.com/lusis/slack-test v0.0.0-20180109053238-3c758769bfa6 // indirect
 	github.com/nlopes/slack v0.6.0
 	github.com/onsi/ginkgo v1.10.1
-	github.com/prometheus/client_golang v1.6.0
-	github.com/pkg/errors v0.9.1
 	github.com/onsi/gomega v1.9.0
+	github.com/pkg/errors v0.9.1
+	github.com/prometheus/client_golang v1.6.0
 	github.com/spf13/cobra v0.0.5
 	github.com/spf13/viper v1.3.2
 	github.com/swaggo/http-swagger v0.0.0-20190614090009-c2865af9083e
@@ -39,7 +39,7 @@ require (
 	gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc // indirect
 	gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
 	gopkg.in/yaml.v2 v2.2.7 // indirect
-	helm.sh/helm/v3 v3.2.0
+	helm.sh/helm/v3 v3.2.1
 	k8s.io/api v0.18.2
 	k8s.io/apiextensions-apiserver v0.17.0 // indirect
 	k8s.io/apimachinery v0.18.2
