@@ -14,15 +14,14 @@ require (
 	github.com/golang/protobuf v1.4.0
 	github.com/google/go-cmp v0.4.0
 	github.com/google/uuid v1.1.1
-	github.com/json-iterator/go v1.1.9 // indirect
 	github.com/julienschmidt/httprouter v1.2.0
 	github.com/lusis/go-slackbot v0.0.0-20180109053408-401027ccfef5 // indirect
 	github.com/lusis/slack-test v0.0.0-20180109053238-3c758769bfa6 // indirect
 	github.com/nlopes/slack v0.6.0
-	github.com/onsi/ginkgo v1.10.1
-	github.com/prometheus/client_golang v1.6.0
-	github.com/pkg/errors v0.9.1
+	github.com/onsi/ginkgo v1.11.0
 	github.com/onsi/gomega v1.9.0
+	github.com/pkg/errors v0.9.1
+	github.com/prometheus/client_golang v1.6.0
 	github.com/spf13/cobra v0.0.5
 	github.com/spf13/viper v1.3.2
 	github.com/swaggo/http-swagger v0.0.0-20190614090009-c2865af9083e
@@ -30,23 +29,18 @@ require (
 	github.com/tidwall/gjson v1.2.1
 	github.com/tidwall/match v1.0.1 // indirect
 	github.com/twitchtv/twirp v5.10.1+incompatible
-	go.uber.org/atomic v1.4.0 // indirect
 	go.uber.org/zap v1.15.0
-	golang.org/x/crypto v0.0.0-20200108215511-5d647ca15757 // indirect
 	golang.org/x/net v0.0.0-20191209160850-c0dbc17a3553 // indirect
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d // indirect
-	golang.org/x/sys v0.0.0-20200107162124-548cf772de50 // indirect
 	gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc // indirect
 	gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
-	gopkg.in/yaml.v2 v2.2.7 // indirect
-	helm.sh/helm/v3 v3.2.0
+	helm.sh/helm/v3 v3.2.3
 	k8s.io/api v0.18.2
-	k8s.io/apiextensions-apiserver v0.17.0 // indirect
 	k8s.io/apimachinery v0.18.2
 	k8s.io/client-go v11.0.0+incompatible
 	k8s.io/helm v2.16.1+incompatible
-	k8s.io/utils v0.0.0-20200108110541-e2fb8e668047 // indirect
 	sigs.k8s.io/controller-runtime v0.6.0
+	sigs.k8s.io/structured-merge-diff v1.0.1-0.20191108220359-b1b620dd3f06 // indirect
 )
 
 replace (
