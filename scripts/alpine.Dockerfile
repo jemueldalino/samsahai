@@ -1,6 +1,6 @@
 ARG USERNAME="samsahai"
 
-FROM alpine:3.11.6
+FROM alpine:3.12.1
 
 ARG USERNAME="samsahai"
 ARG HTTP_PROXY=""
